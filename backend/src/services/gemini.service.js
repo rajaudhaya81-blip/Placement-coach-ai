@@ -3,9 +3,9 @@ import { ApiError } from '../utils/response.js';
 
 const MODEL_FALLBACKS = [
   env.geminiModel,
-  'gemini-3.6-flash',
-  'gemini-3.8-flash',
   'gemini-2.0-flash',
+  'gemini-1.5-flash',
+  'gemini-1.5-pro',
 ].filter((model, index, list) => model && list.indexOf(model) === index);
 
 const GEMINI_BASE_URL =

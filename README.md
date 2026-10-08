@@ -85,7 +85,7 @@ Demo account (only with `npm run seed -- --demo`): `demo@placementcoach.ai` / `D
 | `MONGODB_URI` | yes | Mongo connection string |
 | `JWT_SECRET` | yes | Signs access tokens — use a long random string |
 | `GEMINI_API_KEY` | no | Enables chat/roadmap AI; server-side only |
-| `GEMINI_MODEL` | no | Overrides the default model fallback chain |
+| `GEMINI_MODEL` | no | Overrides the default model — valid options: `gemini-2.0-flash` (default), `gemini-1.5-flash`, `gemini-1.5-pro` |
 | `JWT_EXPIRES_IN` | no | Token lifetime, default `7d` |
 | `PORT` | no | HTTP port, default `5000` |
 | `CLIENT_URL` | no | Allowed CORS origin |
